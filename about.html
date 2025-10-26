@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Dennis DNX</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <style>
+        body { font-family: 'Poppins', sans-serif; color: #333; background-color: #f8f8f8; line-height: 1.6; }
+        body::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at top left, rgba(240, 240, 240, 0.5) 1%, transparent 30%), radial-gradient(circle at bottom right, rgba(240, 240, 240, 0.5) 1%, transparent 30%); z-index: -1; opacity: 0.7; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="min-h-screen relative overflow-hidden">
+
+    <!-- Header / Navigation Bar (Copied from index.html) -->
+    <header class="relative z-10 w-full p-4 md:px-8 bg-white/70 backdrop-blur-sm shadow-sm">
+        <div class="max-w-7xl mx-auto flex justify-between items-center py-2">
+            <nav class="hidden md:flex space-x-6 text-gray-700">
+                <a href="index.html" class="hover:text-gray-900 font-medium transition duration-200">Home</a>
+                <a href="portfolio.html" class="hover:text-gray-900 font-medium transition duration-200">Portfolio</a>
+                <a href="blog.html" class="hover:text-gray-900 font-medium transition duration-200">Blog</a>
+                <a href="about.html" class="text-indigo-600 font-bold transition duration-200">About</a>
+            </nav>
+            <div class="text-3xl font-extrabold text-gray-800 tracking-wide md:flex-grow md:text-center">Arcane</div>
+            <div class="flex space-x-4 text-gray-600">
+                <a href="#" class="hover:text-gray-900 transition duration-200"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-gray-900 transition duration-200"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-gray-900 transition duration-200"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-gray-900 transition duration-200"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="relative z-0 max-w-4xl mx-auto py-12 md:py-20 px-4 md:px-8">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 text-center">The Journey of a Web Specialist</h1>
+        <div class="flex flex-col lg:flex-row gap-8 mb-12 items-center lg:items-start">
+            <img src="https://via.placeholder.com/200x200/FCA5A5/FFFFFF?text=Dennis" alt="Profile Shot" class="w-36 h-36 rounded-full shadow-xl object-cover ring-4 ring-indigo-500 ring-opacity-50">
+            <div class="text-center lg:text-left">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">Dennis DNX: Dedicated to Digital Craft</h2>
+                <p class="text-gray-600">
+                    With over a decade of experience, I’ve transitioned from building simple HTML/CSS pages to developing scalable, enterprise-level applications using modern JavaScript frameworks and robust Python backends. My passion lies in solving complex technical challenges while maintaining an exceptional user experience.
+                </p>
+            </div>
+        </div>
+
+        <!-- Professional Timeline -->
+        <h3 class="text-2xl font-bold text-gray-800 mb-8 mt-12 border-t pt-8">Professional Timeline</h3>
+        <div class="space-y-8 relative">
+            <!-- Vertical Line for Timeline -->
+            <div class="absolute left-3 lg:left-1/2 w-0.5 bg-gray-300 h-full transform lg:-translate-x-1/2"></div>
+
+            <!-- Timeline Item 1 -->
+            <div class="relative lg:flex justify-between items-center w-full">
+                <div class="lg:w-5/12 text-right">
+                    <p class="text-sm font-semibold text-indigo-600">2012 - 2015</p>
+                    <h4 class="text-xl font-bold text-gray-800">Freelance Beginnings</h4>
+                </div>
+                <div class="absolute left-2.5 lg:left-1/2 top-0 transform lg:-translate-x-1/2 w-5 h-5 bg-indigo-500 rounded-full ring-4 ring-white shadow-lg"></div>
+                <div class="lg:w-5/12 lg:text-left pt-6 lg:pt-0 pl-8 lg:pl-12">
+                    <p class="text-gray-600 text-sm">Started building small business websites using static HTML, jQuery, and basic PHP. Focused on client communication and project delivery.</p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="relative lg:flex justify-between items-center w-full">
+                <div class="lg:w-5/12 lg:order-2 text-right lg:text-left pl-8 lg:pl-0">
+                    <p class="text-sm font-semibold text-indigo-600">2016 - 2020</p>
+                    <h4 class="text-xl font-bold text-gray-800">Senior Frontend Engineer</h4>
+                </div>
+                <div class="absolute left-2.5 lg:left-1/2 top-0 transform lg:-translate-x-1/2 w-5 h-5 bg-indigo-500 rounded-full ring-4 ring-white shadow-lg"></div>
+                <div class="lg:w-5/12 lg:order-1 text-right pt-6 lg:pt-0 pr-8 lg:pr-12">
+                    <p class="text-gray-600 text-sm">Led the UI development team for a major FinTech platform. Adopted React and Redux, improving component reusability and development speed by 40%.</p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 3 -->
+            <div class="relative lg:flex justify-between items-center w-full">
+                <div class="lg:w-5/12 text-right">
+                    <p class="text-sm font-semibold text-indigo-600">2021 - Present</p>
+                    <h4 class="text-xl font-bold text-gray-800">Independent Consultant</h4>
+                </div>
+                <div class="absolute left-2.5 lg:left-1/2 top-0 transform lg:-translate-x-1/2 w-5 h-5 bg-indigo-500 rounded-full ring-4 ring-white shadow-lg"></div>
+                <div class="lg:w-5/12 lg:text-left pt-6 lg:pt-0 pl-8 lg:pl-12">
+                    <p class="text-gray-600 text-sm">Focus on full-stack architecture and performance optimization for various startups. Specialized in AWS, serverless, and Python/Flask backends.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

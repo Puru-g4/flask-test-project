@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Dennis DNX</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <style>
+        body { font-family: 'Poppins', sans-serif; color: #333; background-color: #f8f8f8; line-height: 1.6; }
+        body::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at top left, rgba(240, 240, 240, 0.5) 1%, transparent 30%), radial-gradient(circle at bottom right, rgba(240, 240, 240, 0.5) 1%, transparent 30%); z-index: -1; opacity: 0.7; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="min-h-screen relative overflow-hidden">
+
+    <!-- Header / Navigation Bar (Copied from index.html) -->
+    <header class="relative z-10 w-full p-4 md:px-8 bg-white/70 backdrop-blur-sm shadow-sm">
+        <div class="max-w-7xl mx-auto flex justify-between items-center py-2">
+            <nav class="hidden md:flex space-x-6 text-gray-700">
+                <a href="index.html" class="hover:text-gray-900 font-medium transition duration-200">Home</a>
+                <a href="portfolio.html" class="text-indigo-600 font-bold transition duration-200">Portfolio</a>
+                <a href="blog.html" class="hover:text-gray-900 font-medium transition duration-200">Blog</a>
+                <a href="about.html" class="hover:text-gray-900 font-medium transition duration-200">About</a>
+            </nav>
+            <div class="text-3xl font-extrabold text-gray-800 tracking-wide md:flex-grow md:text-center">Arcane</div>
+            <div class="flex space-x-4 text-gray-600">
+                <a href="#" class="hover:text-gray-900 transition duration-200"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-gray-900 transition duration-200"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-gray-900 transition duration-200"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-gray-900 transition duration-200"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="relative z-0 max-w-7xl mx-auto py-12 md:py-20 px-4 md:px-8">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 text-center">My Creative Works</h1>
+        <p class="text-center text-lg text-gray-600 mb-12">Showcasing projects in front-end development, UX design, and scalable architecture.</p>
+
+        <!-- Project Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Project Card 1: E-commerce -->
+            <div class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-2xl transition duration-300 transform hover:-translate-y-1">
+                <img src="https://via.placeholder.com/600x400/94A3B8/FFFFFF?text=E-commerce+Platform" alt="E-commerce Project" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-sm font-semibold text-indigo-600 mb-2 block">Web Development, React</span>
+                    <h2 class="text-xl font-bold text-gray-800 mb-3">Nebula Shop</h2>
+                    <p class="text-gray-600 text-sm mb-4">A high-performance e-commerce platform built with React and Tailwind, focusing on fast load times and intuitive checkout flow.</p>
+                    <a href="#" class="text-indigo-600 font-medium hover:text-indigo-800 flex items-center">
+                        View Project
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project Card 2: Design System -->
+            <div class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-2xl transition duration-300 transform hover:-translate-y-1">
+                <img src="https://via.placeholder.com/600x400/60A5FA/FFFFFF?text=Design+System" alt="Design System Project" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-sm font-semibold text-indigo-600 mb-2 block">UX/UI, Component Library</span>
+                    <h2 class="text-xl font-bold text-gray-800 mb-3">Clarity UI</h2>
+                    <p class="text-gray-600 text-sm mb-4">A comprehensive, accessible design system documentation for internal and external product teams, featuring over 50 components.</p>
+                    <a href="#" class="text-indigo-600 font-medium hover:text-indigo-800 flex items-center">
+                        View Project
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project Card 3: Data Dashboard -->
+            <div class="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-2xl transition duration-300 transform hover:-translate-y-1">
+                <img src="https://via.placeholder.com/600x400/FDBA74/FFFFFF?text=Analytics+Dashboard" alt="Analytics Dashboard" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <span class="text-sm font-semibold text-indigo-600 mb-2 block">Data Visualization, Python</span>
+                    <h2 class="text-xl font-bold text-gray-800 mb-3">Pulse Metrics</h2>
+                    <p class="text-gray-600 text-sm mb-4">A real-time data dashboard using D3.js to visualize key performance indicators for a SaaS application's growth metrics.</p>
+                    <a href="#" class="text-indigo-600 font-medium hover:text-indigo-800 flex items-center">
+                        View Project
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

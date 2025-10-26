@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Dennis DNX</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <style>
+        body { font-family: 'Poppins', sans-serif; color: #333; background-color: #f8f8f8; line-height: 1.6; }
+        body::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle at top left, rgba(240, 240, 240, 0.5) 1%, transparent 30%), radial-gradient(circle at bottom right, rgba(240, 240, 240, 0.5) 1%, transparent 30%); z-index: -1; opacity: 0.7; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="min-h-screen relative overflow-hidden">
+
+    <!-- Header / Navigation Bar (Copied from index.html) -->
+    <header class="relative z-10 w-full p-4 md:px-8 bg-white/70 backdrop-blur-sm shadow-sm">
+        <div class="max-w-7xl mx-auto flex justify-between items-center py-2">
+            <nav class="hidden md:flex space-x-6 text-gray-700">
+                <a href="index.html" class="hover:text-gray-900 font-medium transition duration-200">Home</a>
+                <a href="portfolio.html" class="hover:text-gray-900 font-medium transition duration-200">Portfolio</a>
+                <a href="blog.html" class="text-indigo-600 font-bold transition duration-200">Blog</a>
+                <a href="about.html" class="hover:text-gray-900 font-medium transition duration-200">About</a>
+            </nav>
+            <div class="text-3xl font-extrabold text-gray-800 tracking-wide md:flex-grow md:text-center">Arcane</div>
+            <div class="flex space-x-4 text-gray-600">
+                <a href="#" class="hover:text-gray-900 transition duration-200"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-gray-900 transition duration-200"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-gray-900 transition duration-200"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-gray-900 transition duration-200"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="relative z-0 max-w-4xl mx-auto py-12 md:py-20 px-4 md:px-8">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 text-center">Insights & Code Snippets</h1>
+        <p class="text-center text-lg text-gray-600 mb-12">Thoughts on modern web frameworks, performance, and UI/UX best practices.</p>
+
+        <!-- Blog Post List -->
+        <div class="space-y-10">
+            <!-- Post 1: The Future of CSS -->
+            <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-indigo-500">
+                <span class="text-sm font-semibold text-gray-500 mb-1 block">October 20, 2025 · 5 min read</span>
+                <h2 class="text-2xl font-bold text-gray-800 mb-3 hover:text-indigo-600 cursor-pointer">
+                    CSS Nesting: Why You Should Adopt It Today
+                </h2>
+                <p class="text-gray-600 mb-4">
+                    A deep dive into the native CSS nesting capabilities, moving beyond pre-processors like SASS, and how it dramatically cleans up stylesheets.
+                </p>
+                <a href="#" class="text-indigo-600 font-medium hover:text-indigo-800">
+                    Read Full Article &rarr;
+                </a>
+            </div>
+
+            <!-- Post 2: Python Microframeworks -->
+            <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-gray-400">
+                <span class="text-sm font-semibold text-gray-500 mb-1 block">September 15, 2025 · 8 min read</span>
+                <h2 class="text-2xl font-bold text-gray-800 mb-3 hover:text-indigo-600 cursor-pointer">
+                    Flask vs. FastAPI: Choosing the Right Python Backend
+                </h2>
+                <p class="text-gray-600 mb-4">
+                    Comparing two powerhouse Python frameworks for API development. When does minimalism win, and when do you need the speed of async?
+                </p>
+                <a href="#" class="text-indigo-600 font-medium hover:text-indigo-800">
+                    Read Full Article &rarr;
+                </a>
+            </div>
+
+            <!-- Post 3: Designing for Mobile First -->
+            <div class="bg-white p-6 rounded-xl shadow-lg border-l-4 border-gray-400">
+                <span class="text-sm font-semibold text-gray-500 mb-1 block">August 3, 2025 · 6 min read</span>
+                <h2 class="text-2xl font-bold text-gray-800 mb-3 hover:text-indigo-600 cursor-pointer">
+                    The Importance of the First 500ms: Optimizing for Core Web Vitals
+                </h2>
+                <p class="text-gray-600 mb-4">
+                    Practical tips and tools for achieving perfect scores in Google's Core Web Vitals to ensure exceptional user experience and SEO ranking.
+                </p>
+                <a href="#" class="text-indigo-600 font-medium hover:text-indigo-800">
+                    Read Full Article &rarr;
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
